@@ -6,7 +6,7 @@ import numpy as np
 import CMIT235_Package.CMIT235_Tools as cm
 
 lst = cm.mySubList1 + cm.mySubList2 + cm.mySubList3 #combining the lists in to list
-print("The whole list:\n", lst) #output to screen the combined lists
+print("The whole list: \n", lst) #output to screen the combined lists
 arr = np.array(lst) #creates a numpy array of the combined lists
 print("The lowest value is: \n", np.min(arr)) #output to screen the min value
 print("The maximum value is: \n", np.max(arr)) #output to screen the max value
